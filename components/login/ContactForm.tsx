@@ -74,7 +74,10 @@ const ContactForm = () => {
             <FormItem>
               <FormLabel className="text-lg">Email</FormLabel>
               <FormControl>
-                <Input placeholder="exmple@website.com" {...field} />
+                <Input
+                  placeholder="blog.hellogandhinagar.com@website.com"
+                  {...field}
+                />
               </FormControl>
               <FormDescription>
                 This Email Will be used to contact You.
